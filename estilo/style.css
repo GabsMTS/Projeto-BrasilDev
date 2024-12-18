@@ -27,9 +27,11 @@ header {
     align-items: center;
 }
 
-header h1 {
-    font-weight: 300;
+header img {
+    width: 30px;
 }
+
+
 
 header span {
     color: var(--cor3);
@@ -100,5 +102,5 @@ p {
 }
 
 img {
-    width: 1000px;
+    width: 700px;
 }
