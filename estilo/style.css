@@ -5,7 +5,7 @@
 :root {
     --cor1:#1B1B1B;
     --cor2:#6808FC;
-    --cor3:#00CC00;
+    --cor3:#08affc;
 
     --font-padrão:"Poppins", serif;
 }
@@ -17,7 +17,7 @@ body {
     padding: 15px;
     margin: 0 auto;
     max-width: 1200px;
-    background-image: url('..//imagens/Fundo2.png');
+    background-image: url('..//imagens/fundo3.png');
 }
 
 header {
@@ -85,6 +85,10 @@ h2 {
     font-size: 120px;
     line-height: 10px;
     font-weight: bold;
+}
+
+#dev {
+    color: var(--cor3);
 }
 
 p {
