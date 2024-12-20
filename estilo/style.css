@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: var(--cor3);
+    color: var(--cor2);
     transition: .5s;
 }
 
