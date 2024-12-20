@@ -6,6 +6,7 @@
     --cor1:#1B1B1B;
     --cor2:#6808FC;
     --cor3:#08affc;
+    --cor4: #243536;
 
     --font-padrão:"Poppins", serif;
 }
@@ -24,14 +25,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header img {
     width: 30px;
-}
-
-header span {
-    color: var(--cor3);
 }
 
 li {
@@ -57,9 +55,9 @@ a:hover {
 }
 
 a#bnt:hover {
-    background-color: #6808FC;
+    background-color: var(--cor2);
     color: white;
-    transition: .5s;
+    transition: .5s;    
 }
 
 #começar {
